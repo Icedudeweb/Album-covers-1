@@ -1,0 +1,442 @@
+html {
+	background-color: #192531;
+	height: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+/*========================================
+index.html
+==========================================*/
+
+a {
+	color: #10445F;
+	text-decoration: none;
+}
+
+a:active {
+	color: green;
+}
+
+a:focus {
+	text-decoration: underline;
+	outline: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:visited {
+	color: purple;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: 'Acme', sans-serif;
+	font-size: 3rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 15rem;
+	text-align: center;
+	text-transform: uppercase;	
+}
+
+.index {
+	background-color: #192531;
+	background-image: url(images/camera1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 600px;
+}
+
+.index a:hover {
+	background-color: red;
+	color: orange;
+	transition: background-color 1s linear;
+}
+
+.job-title {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	margin-bottom: 3.5rem;
+	margin-top: 0;
+}
+
+main {
+	background-color: #192531;
+	text-align: center;
+}
+
+nav a {
+	background-color: #FFFFFF;
+	border: 1px;
+	border-radius: 5rem;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 1rem 3rem 1rem;
+}
+
+nav li {	
+	font-family: 'Acme', sans-serif;
+	list-style: none;
+	margin: 2rem auto .5rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav ul {
+	margin-bottom: 2rem;
+	padding: 0;
+}
+
+.site-footer {
+	text-align: center;
+	background-color: #192531;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .65rem;
+	margin-bottom: .5rem;
+}
+
+.site-header a {
+	color: #FFFFFF;
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+.site-header-index {
+	background-color: #192531;
+	margin: 0;
+	padding: 1rem;
+}
+
+.tag-line {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*========================================
+portfolio.html
+==========================================*/
+
+.album {
+	background-color: #192531;
+	margin-bottom: 0;
+}
+
+.album h2 {
+	color: #FFFFFF;
+	font-family: 'Acme', sans-serif;
+	font-size: 1.5rem;
+	font-weight: normal;
+	margin-bottom: .15rem;
+	margin-top: .1rem;
+	text-align: center;
+}
+
+.album p {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: .9rem;
+	margin: 0;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.album-thumbnail {
+  	background-color: #192531;
+	margin: 0 auto;
+	max-width: 300px;
+	padding-bottom: 1rem;
+	padding-bottom: .5rem;
+}
+
+.album-thumbnail a {
+	color: #FFFFFF;
+}
+
+.portfolio-h1 {
+	color: #FFFFFF;
+	font-family: 'Acme', sans-serif;
+	font-size: 2rem;
+	padding-bottom: 1.5rem;
+	padding-left: 3rem;
+	padding-top: 1.5rem;
+	text-align: left;
+	text-transform: uppercase;	
+}
+
+.site-footer {
+	background-color: #192531;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .65rem;
+	margin-bottom: .5rem;
+	text-align: center;
+}
+
+.universal-header a {
+	background-color: #192531;
+	color: #FFFFFF;
+	padding: 0;
+	text-decoration: none;
+}
+
+.universal-header nav li {
+	margin: 1rem;
+}
+
+.universal-header nav ul {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 0;
+}
+
+/*========================================
+sleeping-beauty.html
+==========================================*/
+
+.sleeping-beauty {
+	background-color: #192531;
+	padding: .2rem;
+}
+
+.sleeping-beauty-sample {
+  	background-color: #192531;
+	margin: 0 auto;
+	max-width: 500px;
+	padding-bottom: 2.5rem;
+}
+
+.sleeping-beauty-sample h2 {
+	color: #FFFFFF;
+	font-family: 'Acme', sans-serif;
+	font-size: 1.5rem;
+	font-weight: normal;
+	margin-bottom: .15rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.sleeping-beauty-sample p {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: .9rem;
+	margin-top: .5rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: .5rem;
+	text-align: center;
+}
+
+.sleeping-beauty-main h1 {
+	color: #FFFFFF;
+	font-family: 'Acme', sans-serif;
+	font-size: 2rem;
+	padding-bottom: 1.5rem;
+	padding-left: 3rem;
+	padding-top: 1.5rem;
+	text-align: left;
+	text-transform: uppercase;	
+}
+
+.site-footer {
+	background-color: #192531;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .65rem;
+	margin-bottom: .5rem;
+	text-align: center;
+}
+
+/*========================================
+jonny-quest.html
+==========================================*/
+
+.jonny-quest {
+	background-color: #192531;	
+	padding: .2rem;
+}
+
+.jonny-quest-sample {
+  	background-color: #192531;
+	margin: 0 auto;
+	max-width: 500px;
+	padding-bottom: 2.5rem;
+}
+
+.jonny-quest-sample h2 {
+	color: #FFFFFF;
+	font-family: 'Acme', sans-serif;
+	font-size: 1.5rem;
+	font-weight: normal;
+	margin-bottom: .15rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.jonny-quest-sample p {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: .9rem;
+	margin-top: .5rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: .5rem;
+	text-align: center;
+}
+
+.jonny-quest-logo-sample p {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: .9rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: .5rem;
+	text-align: center;
+}
+
+.jonny-quest-main h1 {
+	color: #FFFFFF;
+	font-family: 'Acme', sans-serif;
+	font-size: 2rem;
+	padding-bottom: 1.5rem;
+	padding-left: 3rem;
+	padding-top: 1.5rem;
+	text-align: left;
+	text-transform: uppercase;	
+}
+
+.jonny-quest-main nav li {
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.site-footer a{
+	background-color: #192531;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .65rem;
+	text-align: center;
+}
+
+/*========================================
+Media Queries
+==========================================*/
+
+@media (min-width: 850px) {
+	.album-listing {
+	  	align-items: start;
+		display: grid;
+		grid-template-columns: 400px 400px;
+		grid-column-gap: 2rem;
+		grid-row-gap: 3rem;
+		margin-top: 2rem;
+	}
+
+	h1 {
+	color: #FFFFFF;
+	font-family: 'Acme', sans-serif;
+	font-size: 3rem;
+	padding-top: 20rem;
+	text-align: center;
+	text-transform: uppercase;	
+	}
+
+	.index {
+		background-color: #192531;
+		background-image: url(images/camera1.jpg);
+		background-repeat: no-repeat;
+		text-align: center;
+	}
+
+	.jonny-quest-sample p {
+	  	align-items: center;
+		min-width: 25rem;
+	}
+
+	.jonny-quest-main h1 {
+		font-size: 3rem;
+	}
+
+	nav li {	
+		align-items: center;
+		background-color: #FFFFFF;
+		border: 1px;
+		border-radius: 5rem;
+		color: #FFFFFF;
+		display: inline-block;
+		font-family: 'Acme', sans-serif;
+		margin: 3rem;
+		margin-bottom: 8rem;
+		padding: 0;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.portfolio-h1 {
+		font-size: 3rem;
+	}
+
+	.sleeping-beauty-sample p {
+	  	align-items: center;
+		min-width: 25rem;
+	}
+
+	.sleeping-beauty-main h1 {
+		font-size: 3rem;
+	}
+
+	.universal-header a {
+		background-color: #192531;
+		color: #FFFFFF;
+		padding: 0;
+		text-decoration: none;
+	}
+
+	.universal-header nav li {
+		background-color: #192531;
+		font-size: 1.25rem;
+		margin: 1rem;
+	}
+
+	.universal-header nav ul {
+		display: flex;
+		justify-content: flex-end;
+		margin-bottom: 0;
+		padding: 0;
+	}
+}
+
+@media (min-width: 1250px) {
+	.album-listing {
+	  	align-items: start;
+		display: grid;
+		grid-template-columns: 400px 400px 400px;
+		grid-column-gap: 2rem;
+		grid-row-gap: 3rem;
+		margin-top: 2rem;
+	}
+
+	.jonny-quest-covers {
+	  	align-items: center;
+	}
+
+	.sleeping-beauty-covers {
+	  	align-items: center;
+	}
+
+}
